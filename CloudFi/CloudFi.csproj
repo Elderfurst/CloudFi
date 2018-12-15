@@ -8,6 +8,10 @@
   <ItemGroup>
     <Compile Remove="Migrations\20181215223614_Initial.cs" />
     <Compile Remove="Migrations\20181215223614_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20181215224238_UserTable.cs" />
+    <Compile Remove="Migrations\20181215224238_UserTable.Designer.cs" />
+    <Compile Remove="Migrations\20181215224318_UserTable.cs" />
+    <Compile Remove="Migrations\20181215224318_UserTable.Designer.cs" />
   </ItemGroup>
 
 
