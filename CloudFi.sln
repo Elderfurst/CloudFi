@@ -1,13 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.28010.2036
+VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudFi.Server", "CloudFi.Server\CloudFi.Server.csproj", "{D40ACE08-24F0-484F-BC1F-B2D943A95309}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudFi.Client", "CloudFi.Client\CloudFi.Client.csproj", "{D6264189-8C54-48DB-91AD-E4E4E895AE62}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudFi.Shared", "CloudFi.Shared\CloudFi.Shared.csproj", "{E3498C80-ADCF-4030-8099-C62A9178BDD9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudFi", "CloudFi\CloudFi.csproj", "{94E262FF-042A-4C4A-89A7-83C8E402F576}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,23 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D40ACE08-24F0-484F-BC1F-B2D943A95309}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D40ACE08-24F0-484F-BC1F-B2D943A95309}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D40ACE08-24F0-484F-BC1F-B2D943A95309}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D40ACE08-24F0-484F-BC1F-B2D943A95309}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D6264189-8C54-48DB-91AD-E4E4E895AE62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D6264189-8C54-48DB-91AD-E4E4E895AE62}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D6264189-8C54-48DB-91AD-E4E4E895AE62}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D6264189-8C54-48DB-91AD-E4E4E895AE62}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E3498C80-ADCF-4030-8099-C62A9178BDD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E3498C80-ADCF-4030-8099-C62A9178BDD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E3498C80-ADCF-4030-8099-C62A9178BDD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E3498C80-ADCF-4030-8099-C62A9178BDD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94E262FF-042A-4C4A-89A7-83C8E402F576}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94E262FF-042A-4C4A-89A7-83C8E402F576}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94E262FF-042A-4C4A-89A7-83C8E402F576}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94E262FF-042A-4C4A-89A7-83C8E402F576}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {27E8530C-1A87-443C-A2DF-5637CE4848CB}
+		SolutionGuid = {BD72A4B7-CDF1-4414-AB22-ACCAF184C210}
 	EndGlobalSection
 EndGlobal
