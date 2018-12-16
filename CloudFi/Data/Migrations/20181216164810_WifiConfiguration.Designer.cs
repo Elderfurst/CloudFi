@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CloudFi.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20181216154947_WifiConfigurations")]
-    partial class WifiConfigurations
+    [Migration("20181216164810_WifiConfiguration")]
+    partial class WifiConfiguration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

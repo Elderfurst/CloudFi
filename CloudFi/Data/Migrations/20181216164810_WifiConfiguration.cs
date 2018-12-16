@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace CloudFi.Data.Migrations
 {
-    public partial class WifiConfigurations : Migration
+    public partial class WifiConfiguration : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

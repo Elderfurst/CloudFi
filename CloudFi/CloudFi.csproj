@@ -2,9 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
-    <UserSecretsId>aspnet-CloudFi-60638278-D466-477B-A493-0F4C1E8B6AA2</UserSecretsId>
+    <UserSecretsId>aspnet-CloudFi-96BA7E0C-8811-4738-8B71-F30E3AE8169C</UserSecretsId>
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Data\Migrations\20181216164713_WifiConfiguration.cs" />
+    <Compile Remove="Data\Migrations\20181216164713_WifiConfiguration.Designer.cs" />
+  </ItemGroup>
 
 
   <ItemGroup>

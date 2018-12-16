@@ -6,7 +6,7 @@ namespace CloudFi.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {
-        public DbSet<WifiConfiguration> WifiConfigurations { get; set; }
+        DbSet<WifiConfiguration> WifiConfigurations { get; set; }
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
     }
 }
